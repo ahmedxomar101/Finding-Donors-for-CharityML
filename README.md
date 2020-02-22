@@ -20,7 +20,7 @@ This project is part of Udacity Machine Learning Nanodegree projects.
 
 
 ## Introduction
-In this project, I used 6 differnet **Supervised Machine Learning** models to train and test the [dataset](https://archive.ics.uci.edu/ml/datasets/Census+Income). I also used **F-beta score** as a metric that considers both precision and recall:
+In this project, I used 6 different **Supervised Machine Learning** models to train and test the [dataset](https://archive.ics.uci.edu/ml/datasets/Census+Income). I also used **F-beta score** as a metric that considers both precision and recall:
 
 <img src='assets/3.PNG' width="500" />
 
@@ -46,7 +46,7 @@ And then I visualized a graph to compare between:
 | --- | --- | --- |
 <img src='assets/1.PNG' width="700" />
 
-| 4. Decision Tree Classifier | 5. AdaBoost Classifier | 6. Support Vector Classifier |
+| 4. Decision Tree Classifier | 5. AdaBoost Classifier | 6. Support Vector Machine Classifier |
 | --- | --- | --- |
 <img src='assets/2.PNG' width="700" />
 
@@ -55,7 +55,7 @@ From graphs, it's obvious that AdaBoost Classifier is better in both Accuracy an
 
 
 ## Project Overview
-I applied supervised learning techniques and an analytical mind on data collected for the U.S. census to help CharityML (a fictitious charity organization) identify people most likely to donate to their cause. I started by exploring the data to learn how the census data is recorded. Next, I applied a series of transformations and preprocessing techniques to manipulate the data into a workable format. Then I evaluated several supervised models on the data, and considered which is best suited for the solution. Afterwards, I optimized the model you've selected and present it as your solution to CharityML. Finally, you will explore the chosen model and its predictions under the hood, to see just how well it's performing when considering the data it's given.
+I applied supervised learning techniques and an analytical mind on data collected for the U.S. census to help CharityML (a fictitious charity organization) identify people most likely to donate to their cause. I started by exploring the data to learn how the census data is recorded. Next, I applied a series of transformations and preprocessing techniques to manipulate the data into a workable format. Then I evaluated several supervised models on the data and considered which is best suited for the solution. Afterwards, I optimized the selected model.
 
 
 ## Prerequisites
