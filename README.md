@@ -77,23 +77,23 @@ If you do not have Python installed yet, it is highly recommended that you insta
 
 This project contains three files:
 
-- `finding-donors-for-charityML.ipynb`: This is the main file where you will find all the work on the project.
-- `census.csv`: The project dataset. Which is loaded this data in the notebook.
-- `visuals.py`: A Python file containing visualization code that is run behind-the-scenes. Do not modify
+- [`finding-donors-for-charityML.ipynb`](https://github.com/AhMeDxHaMiDo/Finding-Donors-for-CharityML/blob/master/finding-donors-for-charityML.ipynb): This is the main file where you will find all the work on the project.
+- [`census.csv`](https://github.com/AhMeDxHaMiDo/Finding-Donors-for-CharityML/blob/master/census.csv): The project dataset. Which is loaded this data in the notebook.
+- [`visuals.py`](https://github.com/AhMeDxHaMiDo/Finding-Donors-for-CharityML/blob/master/visuals.py): A Python file containing visualization code that is run behind-the-scenes. Do not modify
 
 ### Code
 
-Template code is provided in the `finding-donors-for-charityML.ipynb` notebook file. The script `visuals.py` Python file is also required for the visualizing functions, and the `census.csv` dataset file.
+Template code is provided in the [`finding-donors-for-charityML.ipynb`](https://github.com/AhMeDxHaMiDo/Finding-Donors-for-CharityML/blob/master/finding-donors-for-charityML.ipynb) notebook file. The script [`visuals.py`](https://github.com/AhMeDxHaMiDo/Finding-Donors-for-CharityML/blob/master/visuals.py) Python file is also required for the visualizing functions, and the [`census.csv`](https://github.com/AhMeDxHaMiDo/Finding-Donors-for-CharityML/blob/master/census.csv) dataset file.
 
 ### Run
 
 In a terminal or command window, navigate to the top-level project directory `Finding-Donors-for-CharityML/` (that contains this README) and run one of the following commands:
 
-```bash
+```
 ipython notebook finding-donors-for-charityML.ipynb
 ```  
 or
-```bash
+```
 jupyter notebook finding-donors-for-charityML.ipynb
 ```
 
@@ -129,7 +129,7 @@ The modified census dataset consists of approximately 32,000 data points, with e
 | F-score        | 0.2917 | 0.7333 | 0.7446 |
 
 ### Loading the Trained Model
-* You could download the optimized model and load it by the following commands:
+* You could [download](https://github.com/AhMeDxHaMiDo/Finding-Donors-for-CharityML/blob/master/optimized_model.sav) the optimized model and load it by the following commands:
 ```
 import pickle
 filename = 'optimized_model.sav'
