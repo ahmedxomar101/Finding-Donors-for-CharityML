@@ -1,5 +1,5 @@
 # Finding Donors for CharityML
-Training 6 different **Supervised Machine Learning** in **scikit-learn** framework then tuning and optimizing of the best model to increase the **accuracy**. 
+Training 6 different **Supervised Machine Learning** in **scikit-learn** framework then tuning and optimizing the best model of them to increase the **accuracy**. 
 
 This project is part of Udacity Machine Learning Nanodegree projects.
 
