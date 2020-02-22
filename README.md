@@ -1,5 +1,7 @@
 # Finding Donors for CharityML
-Training 6 different **Supervised Machine Learning** in **scikit-learn** framework then tuning and optimizing of the best model to increase the **accuracy**. This project is part of Udacity Machine Learning Nanodegree projects.
+Training 6 different **Supervised Machine Learning** in **scikit-learn** framework then tuning and optimizing of the best model to increase the **accuracy**. 
+
+This project is part of Udacity Machine Learning Nanodegree projects.
 
 # Table of Content
 
@@ -20,7 +22,7 @@ Training 6 different **Supervised Machine Learning** in **scikit-learn** framewo
 ## Introduction
 In this project, I used 6 differnet **Supervised Machine Learning** models to train and test the [dataset](https://archive.ics.uci.edu/ml/datasets/Census+Income). I also used **F-beta score** as a metric that considers both precision and recall:
 
-![alt text](screenshots/3.jpg)
+<img src='assets/3.PNG' width="500" />
 
 In particular, when  𝛽=0.5 , more emphasis is placed on precision. This is called the F(0.5)_score (or F-score for simplicity).
 
@@ -40,10 +42,16 @@ And then I visualized a graph to compare between:
 * F-Score on Training & Testing Subsets.
 * Time of Model Training & Testing.
 
-![alt text](screenshots/1.jpg)
-![alt text](screenshots/2.jpg)
+| 1. Gradient Boosting Classifier | 2. Random Forest Classifier | 3. Logistic Regression |
+| --- | --- | --- |
+<img src='assets/1.PNG' width="700" />
 
-From screenshots, it's obvious that AdaBoost Classifier is better in both Accuracy and F-Score. So after that, we'll use it with the [GridSearch](https://en.wikipedia.org/wiki/Hyperparameter_optimization#Grid_search) technique to **tune** our model and **optimize** its hyperparameter in order to increase the Accuracy and F-Score as it's shown [below](https://github.com/AhMeDxHaMiDo/Finding-Donors-for-CharityML#results)
+| 4. Decision Tree Classifier | 5. AdaBoost Classifier | 6. Support Vector Classifier |
+| --- | --- | --- |
+<img src='assets/2.PNG' width="700" />
+
+
+From graphs, it's obvious that AdaBoost Classifier is better in both Accuracy and F-Score. So after that, we'll use it with the [GridSearch](https://en.wikipedia.org/wiki/Hyperparameter_optimization#Grid_search) technique to **tune** our model and **optimize** its hyperparameter in order to increase the Accuracy and F-Score as it's shown [below](https://github.com/AhMeDxHaMiDo/Finding-Donors-for-CharityML#results)
 
 
 ## Project Overview
